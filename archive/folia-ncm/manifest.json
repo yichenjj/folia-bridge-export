@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+  "name": "Folia NCPlayer",
+  "slug": "folia-ncplayer",
+  "version": "0.1.0",
+  "author": "yiche",
+  "description": "Folia 播放页移植 · 阶段1：数据泵 + 流光歌词渲染",
+  "ncm3-compatible": true,
+  "injects": {
+    "Main": [
+      { "file": "index.js" }
+    ]
+  }
+}

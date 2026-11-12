@@ -1,0 +1,15 @@
+{
+  "manifest_version": 1,
+  "name": "Folia Bridge",
+  "slug": "folia-bridge",
+  "version": "0.1.0",
+  "author": "yiche",
+  "description": "网易云播放状态 → Folia Now Playing（纯桥接零 UI，与其它插件共存）",
+  "betterncm_version": ">=1.0.0",
+  "ncm3-compatible": true,
+  "injects": {
+    "Main": [
+      { "file": "index.js" }
+    ]
+  }
+}
